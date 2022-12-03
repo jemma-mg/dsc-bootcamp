@@ -10,6 +10,7 @@ function Home() {
       <h1>Call The Components</h1>
       <destination/>
       <trip/>
+      <footer/>
     </>
   );
 }
