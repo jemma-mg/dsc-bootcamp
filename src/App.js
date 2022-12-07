@@ -1,18 +1,19 @@
 import "./styles.css";
-import Navbar from "./components/navbar/navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Navbar/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/service" element={<Service/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
-      
     </div>
   );
 }

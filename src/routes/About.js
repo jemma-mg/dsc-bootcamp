@@ -1,4 +1,4 @@
-import Hero from "../components/Hero";
+import Carousel from "../components/carousel/Carousel";
 import Navbar from "../components/navbar/navbar";
 import AboutImg from "../assets/travel1.jpg";
 import Footer from "../components/Footer";
@@ -8,7 +8,7 @@ function About() {
   return (
     <>
         <Navbar/>
-        <Hero
+        <Carousel
             CName="hero-mid"
             heroImg={AboutImg}
             title="About" 

@@ -1,14 +1,13 @@
-import "./styles.css";
-import { Route, Routes } from "react-router-dom";
-import Home from "./routes/Home";
-import About from "./routes/About";
-import Service from "./routes/Service";
-import Contact from "./routes/Contact";
+import { createRoot } from "react-dom/client"
+import { BrowserRouter } from "react-router-dom";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Your Code Here</h1>
-    </div>
-  );
-}
+import App from "./App"
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <BrowserRouter>
+    <App/>
+  </BrowserRouter>
+); 

@@ -1,6 +1,6 @@
-import "./HeroStyles.css";
+import "./Carousel.css";
 
-function Hero(props) {
+function Carousel(props) {
   return (
     <>
       <div className={props.cName}>
@@ -16,4 +16,4 @@ function Hero(props) {
   );
 }
 
-export default Hero;
+export default Carousel;
