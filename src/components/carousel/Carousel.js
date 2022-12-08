@@ -4,7 +4,7 @@ function Carousel(props) {
   return (
     <>
       <div className={props.cName}>
-        <img alt="HerpImg" src= {props.heroImg} />
+        <img alt="CalosalImg" src= {props.heroImg} />
         <div className="hero-text">
             <h1>{props.title}</h1> 
             <p>{props.text}</p>

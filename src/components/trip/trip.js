@@ -1,10 +1,10 @@
 import "./trip.css"
-import tripData from "./"
-import trip1 from "../../assets/kfm1"
-import trip2 from "../../assets/kfm1"
-import trip3 from "../../assets/kfm1"
+import TripData from "./tripData"
+import trip1 from "../../assets/1.jpg"
+import trip2 from "../../assets/2.jpg"
+import trip3 from "../../assets/4.jpg"
 
-function trip(){
+function Trip(){
     return(
         <div className="trip">
             <h1>Recent Trips</h1>
@@ -16,12 +16,12 @@ function trip(){
                 text = "Kozhikode is the largest urban area in the state and 195th largest urban area in the world. During classical antiquity and the Middle Ages, Kozhikode was dubbed the “City of Spices” for its role as the major trading point of Eastern spices."
                 />
                 <tripData 
-                image = {trip1}
+                image = {trip2}
                 heading = "Trip in Kozhikode"
                 text = "Kozhikode is the largest urban area in the state and 195th largest urban area in the world. During classical antiquity and the Middle Ages, Kozhikode was dubbed the “City of Spices” for its role as the major trading point of Eastern spices."
                 />
                 <tripData 
-                image = {trip1}
+                image = {trip3}
                 heading = "Trip in Kozhikode"
                 text = "Kozhikode is the largest urban area in the state and 195th largest urban area in the world. During classical antiquity and the Middle Ages, Kozhikode was dubbed the “City of Spices” for its role as the major trading point of Eastern spices."
                 />
@@ -30,4 +30,4 @@ function trip(){
     )
 }
 
-export default trip
+export default Trip

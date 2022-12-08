@@ -1,8 +1,8 @@
 import Carousel from "../components/carousel/Carousel";
 import Navbar from "../components/navbar/navbar";
 import AboutImg from "../assets/t3.jpg";
-import Footer from "../components/Footer";
-import ContactForm from "../components/ContactForm";
+import Footer from "../components/footer/footer";
+import ContactForm from "../components/contact/contact";
 
 function Contact() {
   return (
@@ -14,6 +14,8 @@ function Contact() {
           title="Contact" 
           btnClass="hide"
       /> 
+      <ContactForm/>
+      <Footer/>
     </>
   ); 
 }

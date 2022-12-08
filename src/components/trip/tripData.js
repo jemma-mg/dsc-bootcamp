@@ -1,6 +1,6 @@
 import "./trip.css"
 
-function tripData(props){
+function TripData(props){
     return(
         <div className="trip__card">
             <div className="trip__image">
@@ -12,4 +12,4 @@ function tripData(props){
     )
 }
 
-export default tripData
+export default TripData

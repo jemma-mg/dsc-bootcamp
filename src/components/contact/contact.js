@@ -1,6 +1,6 @@
 import "./contact.css"
 
-function contact(){
+function ContactForm(){
     return(
         <div className="form__container">
             <h1>Send a message to ss</h1>
@@ -15,4 +15,4 @@ function contact(){
     )
 }
 
-export default contact
+export default ContactForm

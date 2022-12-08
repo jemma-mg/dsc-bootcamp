@@ -1,8 +1,8 @@
-import destination from "../components/destination/destination";
-import footer from "../components/footer";
+import Destination from "../components/destination/destination";
+import Footer from "../components/footer/footer";
 import Carousel from "../components/carousel/Carousel";
 import Navbar from "../components/navbar/navbar";
-import trip from "../components/trip/trip";
+import Trip from "../components/trip/trip";
 
 function Home() {
   return (
@@ -17,9 +17,9 @@ function Home() {
       url="/"
       btnClass="show"
     />
-    <destination/>
-    <trip/>
-    <footer/>
+    <Destination/>
+    <Trip/>
+    <Footer/>
     </>
   );
 }

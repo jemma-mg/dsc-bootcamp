@@ -24,7 +24,7 @@ img{
 .hero-text { 
     position: absolute;
     top: 55%; 
-    Left: 50%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
     width:100%;
 }
@@ -40,13 +40,13 @@ img{
 .hexo-text p{
     font-size: 1.3xem;
     color: #fff;
-    padding: 0.5xem 0.2rem 0;
+    padding: 0.5rem 0 2rem 0;
 }
     
-.hero-text.show {
+.hero-text .show {
     text-decoration: none;
     background: #fff;
-    padding: 1xem 2xem;
+    padding: 1rem 2rem;
     border-radius: 6px;
     font-size: 1.1rem;
     font-weight: bold;
@@ -64,7 +64,7 @@ img{
     
     .hero-text p{
         font-size: 1.1rem; 
-        padding: 0 0 2xem 0;
+        padding: 0 0 2rem 0;
     }
     
     .hero-text .show {

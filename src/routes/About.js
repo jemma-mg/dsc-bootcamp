@@ -1,10 +1,10 @@
 import Carousel from "../components/carousel/Carousel";
 import Navbar from "../components/navbar/navbar";
-import AboutImg from "../assets/travel1.jpg";
-import Footer from "../components/Footer";
-import AboutUs from "../components/AboutUs";
+import AboutImg from "../assets/trave1.jpg";
+import Footer from "../components/footer/footer";
+import About from "../components/about/about";
 
-function About() {
+function AboutPage() {
   return (
     <>
         <Navbar/>
@@ -14,8 +14,10 @@ function About() {
             title="About" 
             btnClass="hide"
         /> 
+        <About/>
+        <Footer/>
     </>
   );
 }
 
-export default About;
+export default AboutPage;
