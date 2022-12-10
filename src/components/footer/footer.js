@@ -1,18 +1,27 @@
-import "./footer.css"
+import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="top">
         <div>
-          <h1>Trip easy</h1>
+          <h1>Trip Easy</h1>
           <p>Choose your favourite destination</p>
         </div>
         <div>
-          <a href="#" className="fa-brands fa-facebook-square"></a>
-          <a href="#" className="fa-brands fa-instagram-square"></a>
-          <a href="#" className="fa-brands fa-behance-square"></a>
-          <a href="#" className="fa-brands fa-twitter-square"></a>
+        <Link className="social" to="#">
+          <i class="fa-brands fa-facebook-square"></i>Facebook
+        </Link>
+        <Link className="social" to="#">
+          <i class="fa-brands fa-instagram-square"></i>Instagram
+        </Link>
+        <Link className="social" to="#">
+          <i class="fa-brands fa-behance-square"></i>Behance
+        </Link>
+        <Link className="social" to="#">
+          <i class="fa-brands fa-twitter-square"></i>Twitter
+        </Link>
         </div>
       </div>
     </div>
