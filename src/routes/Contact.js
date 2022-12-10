@@ -1,6 +1,6 @@
 import Carousel from "../components/carousel/Carousel";
 import Navbar from "../components/navbar/navbar";
-import AboutImg from "../assets/t3.jpg";
+import ContactImg from "../assets/10.jpg";
 import Footer from "../components/footer/footer";
 import ContactForm from "../components/contact/contact";
 
@@ -9,8 +9,8 @@ function Contact() {
     <>
       <Navbar/>
       <Carousel
-          CName="hero-mid"
-          heroImg={AboutImg}
+          class__name="carousal"
+          carosal__img={ContactImg}
           title="Contact" 
           btnClass="hide"
       /> 

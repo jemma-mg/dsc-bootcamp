@@ -9,11 +9,11 @@ function Home() {
     <>
     <Navbar/>
     <Carousel
-      CName="hero"
-      heroImg="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      class__name="carousal__home"
+      carosal__img="https://images.unsplash.com/photo-1655374357824-f51336c891ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIwNXxGem8zenVPSE42d3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
       title="Creating Your New Story" 
       text="Choose Your Favourite Destination"
-      buttonText="Travel Plan"
+      btnText="Travel Plan"
       url="/"
       btnClass="show"
     />

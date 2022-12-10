@@ -9,8 +9,8 @@ function Service() {
     <>
       <Navbar/>
       <Carousel
-          CName="hero-mid"
-          heroImg={AboutImg}
+          class__name="carousal"
+          carosal__img={AboutImg}
           title="Service" 
           btnClass="hide"
       /> 
