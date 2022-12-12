@@ -40,6 +40,7 @@
 }
 
 .trip__card h4{
+    padding: 10px 0;
     font-size: 1.3rem;
     padding-top: 0.9rem 0.2rem 0;
 }

@@ -10,17 +10,17 @@ function Trip(){
             <h1>Recent Trips</h1>
             <p>You can discover unique destinations using Google Maps</p>
             <div className="tripcards">
-                <tripData 
+                <TripData 
                 image = {trip1}
                 heading = "Trip in Kozhikode"
                 text = "Kozhikode is the largest urban area in the state and 195th largest urban area in the world. During classical antiquity and the Middle Ages, Kozhikode was dubbed the “City of Spices” for its role as the major trading point of Eastern spices."
                 />
-                <tripData 
+                <TripData 
                 image = {trip2}
                 heading = "Trip in Kozhikode"
                 text = "Kozhikode is the largest urban area in the state and 195th largest urban area in the world. During classical antiquity and the Middle Ages, Kozhikode was dubbed the “City of Spices” for its role as the major trading point of Eastern spices."
                 />
-                <tripData 
+                <TripData 
                 image = {trip3}
                 heading = "Trip in Kozhikode"
                 text = "Kozhikode is the largest urban area in the state and 195th largest urban area in the world. During classical antiquity and the Middle Ages, Kozhikode was dubbed the “City of Spices” for its role as the major trading point of Eastern spices."
