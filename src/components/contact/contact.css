@@ -28,6 +28,20 @@
 
 .form__container button{
     display: inline;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 3px double lightskyblue;
+}
+
+.form__container button:hover{
+    padding: 13px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(45deg, lightblue, blue,steelblue);
+    transition: button 0.5s ease-in-out;
 }
 
  @media screen and (max-width:850px) {
