@@ -10,7 +10,7 @@ function AboutPage() {
         <Navbar/>
         <Carousel
             class__name="carousal"
-            carosal__img={AboutImg}
+            carosal__img="https://images.unsplash.com/photo-1582401818608-1cf80c1af532?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc4NHxGem8zenVPSE42d3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
             title="About" 
             btnClass="hide"
         /> 
